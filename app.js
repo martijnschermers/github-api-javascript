@@ -10,12 +10,12 @@ const token = "";
     const response = await fetch(url, {
         method: "GET",
         headers: new Headers({
-            // If you are getting data from a public API, remove this line. 
-            'Authorization': `Token ${token}`, 
+            // If you are getting data from a public API, comment this line. Else uncomment it and fill in a valid token.  
+            // 'Authorization': `Token ${token}`, 
             'Content-Type': 'application/json'
         }), 
     }); 
-    
+
     const data = await response.json();
 
     if (response.status >= 200 && response.status < 400) {
