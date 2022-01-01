@@ -1,6 +1,6 @@
 
 // It is possible to use other url's here.
-const url = "https://api.github.com/users/ms-arrow/events/public"; 
+const url = "https://api.github.com/users/martijnschermers/events/public"; 
 
 // Your personal authentication Github token goes here. 
 // https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
